@@ -15,7 +15,7 @@ const Navbar = () => {
     <>
       <nav className="p-5 flex flex-row justify-around mt-5 items-center mb-0">
         <Link to="/">
-          <img src={Logo} alt="Logo" className="w-auto" />
+          <img src={Logo} alt="Logo" />
         </Link>
         <div className="hidden md:block transition-all">
           <Link to="/" className="text-2xl text-white mx-5 hover:text-gray-500 transition-colors">
