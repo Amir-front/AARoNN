@@ -6,7 +6,7 @@ const About = () => {
     <section className="flex flex-col md:flex-row justify-center items-center p-5 text-white">
       <div className="w-full md:w-1/2 m-20 mb-5">
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">Let’s get know about me closer</h1>
-        <p className="text-gray-500 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-6">
+        <p className="text-gray-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-6">
           Aaronn is a New York-based visual designer focusing on branding and
           visual identity. Her portfolio showcases her wide range of work,
           spanning books, posters and web design.

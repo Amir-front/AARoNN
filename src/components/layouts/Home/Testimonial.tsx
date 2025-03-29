@@ -4,7 +4,7 @@ const Testimonial = () => {
     <section className="flex flex-row p-5 md:m-5">
       <div className="w-3/4">
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-white">Testimonial</h1>
-        <p className="text-gray-500 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-6 md:w-3/4">
+        <p className="text-gray-400 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-6 md:w-3/4">
           “Aaronn was fantastic to work with from start to finish. We were
           looking for a simple, stand-out logo and he delivered. I tried
           designing the logo myself thinking I wouldn’t need to pay the money
