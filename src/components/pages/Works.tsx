@@ -9,16 +9,16 @@ import Img8 from "../../assets/Works/8.png";
 
 const Works = () => {
   return (
-    <section className="p-5 text-white flex flex-col">
-      <div>
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
+    <section className="p-5 text-white flex flex-col mb-16 mt-20">
+      <div className="pb-24 border-b-2 border-white 2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
           My works
         </h1>
-        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-4 text-gray-400">
+        <p className="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-4 text-gray-400">
           Showcase About Works
         </p>
       </div>
-      <div className="mt-16 gap-20 md:gap-32 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl flex flex-col justify-center items-center">
+      <div className="mt-16 gap-20 md:gap-32 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl flex flex-col justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-20 md:gap-32">
           <div>
             <img src={Img1} alt="img" />
