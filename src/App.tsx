@@ -7,10 +7,12 @@ import Contact from './components/pages/Contact';
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/footer';
 import NotFound from './components/pages/404';
+import ScrollToTop from './components/ScrollToTop';
 function App() {
 
   return (
     <Router>
+      <ScrollToTop/>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
